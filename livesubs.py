@@ -45,7 +45,7 @@ cv2.putText(border, text, (int(textX), int(textY) ), font, 1.5, (255, 255, 255),
 
 while True:
     b = border
-    key = ""
+    key = "AIzaSyAMCbgmLCfh5ZN-S5hSDrI3BxZlwAT98MA"
     data = rq.get("https://www.googleapis.com/youtube/v3/channels?part=statistics&forUsername=" + values[0] + "&key=" + key)
     subs = json.loads(data.text)["items"][0]["statistics"]["subscriberCount"]
     print(subs)
