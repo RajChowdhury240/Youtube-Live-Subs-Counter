@@ -58,6 +58,4 @@ while True:
     cv2.putText(border, subs, (int(subX), int(subY)), font, 1.5, (43,48,196), 2)
     border = b
 
-# display image
-
-
+# Done
