@@ -12,7 +12,7 @@ idna==2.8
 
 numpy==1.16.4
 
-opencv-python==4.1.0.25
+opencv-python==4.2.0.32
 
 PySimpleGUI==4.0.0
 
